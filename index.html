@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="There are ninjas in the dojo, you must find them!">
+    <meta name="keywords" content="Minesweeper, Game, JS">
+    <meta name="author" content="Marisa Goode">
+    <meta property="og:image" content="https://raw.githubusercontent.com/dev-marisa/dojo-sweeper/master/assets/favicon.png">
+    <title>Dojo Sweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="title">Dojo Sweeper</h2>
+    <div id="controls">
+        <button onclick="setMode(this)">Check</button>
+        <h2 id="timer">0</h2>
+        <button onclick="setMode(this)">Mark</button>
+    </div>
+    <div id="the-dojo">
+        <h2>still loading... there may be an error</h2>
+    </div>
+    <button class="hard-mode" onclick="hardMode()">Play on Hard Mode</button>
+    <div id="modal">
+        <div id="modal-inner">Leaderboard</div>
+    </div>
+    <div class="footer">
+        <a href="https://github.com/artanmerko/" target="_blank">GitHub</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
