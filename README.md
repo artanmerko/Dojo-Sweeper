@@ -1,4 +1,4 @@
 # Dojo-Sweeper
-## Find the ninjas
+Find the ninjas
 
 ### url
